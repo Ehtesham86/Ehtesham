@@ -1,0 +1,57 @@
+import React, { useContext } from "react";
+import Toggle from "../Toggle/Toggle";
+import "./Navbar.css";
+import { Link } from "react-scroll";
+import { themeContext } from "../../Context";
+const Navbar = () => {
+  const transition = { duration: 2, type: "spring" };
+  const theme = useContext(themeContext);
+  const darkmode = theme.state.darkMode;
+  return (
+    <div className="n-wrapper" id="Navbar">
+      {/* left */}
+      <div className="n-left">
+        
+        <span className="n-name button i-button2">Ehtesham</span>
+        <Toggle />
+      </div>
+      {/* right */}
+      <div className="n-right">
+        <div className="n-list">
+          <ul style={{ listStyleType: "none" }}>
+            <li>
+              <Link activeClass="active" to="Navbar" style={{ color: darkmode ? "pink" : "pink" }} spy={true} smooth={true}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="services" spy={true} smooth={true}>
+                Serivces
+              </Link>
+            </li>
+            <li>
+              <Link to="works" spy={true} smooth={true}>
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="portfolio" spy={true} smooth={true}>
+                Protfolio
+              </Link>
+            </li>
+            <li>
+              <Link to="testimonial" spy={true} smooth={true}>
+                Testimonial
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <a href="https://wa.me/+923105321069" spy={true} smooth={true}>
+        <button className="button n-button">Call : 03189391781</button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
