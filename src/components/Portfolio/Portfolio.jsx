@@ -13,41 +13,70 @@ const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="portfolio" id="portfolio">
-      {/* heading */}
-      <span style={{ color: darkMode ? 'white' : 'white' }}>Recent Projects</span>
-      <span>Portfolio</span>
+  <>
+<div className="center-text2 text-center">
+  <span>Recent Projects</span>
+  <br />
+  <span className="text-muted text11">
+    Our client projects are highly confidential and protected by login credentials. To access these exclusive insights and resources, access exclusive client projects by logging in with my test credentials. Company/Clients privacy is my priority. Thank you for your understanding and cooperation.
+    <br/>
+    <span class="text-muted textt" style={{textAlign: 'center', display: 'block', margin: '0 auto',marginTop:"1rem"}}>"Credentials will be provided as per requirement"</span>
+  </span>
+</div>
 
-      {/* slider */}
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
-        grabCursor={true}
-        className="portfolio-slider"
-      >
-              <SwiperSlide>
-          <a href='http://welcome.devforhealth.com/MainScreen'>  <img style={{ "height": "10.7rem" }} className="siderbr img3 marr mx-5" src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' alt="" /></a>
-          {/* <img  alt="" /> */}
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href='https://tech.doingthistogether.com/login'>  <img style={{ "height": "10.7rem" }} className="siderbr img3 marr mx-5" src={'https://res.cloudinary.com/alpja/image/upload/v1702752592/vffs7bx9yrfsk98aorz9.png'} alt="" /></a>
-          {/* <img  alt="" /> */}
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href='https://petite-vase.surge.sh'>  <img style={{ "height": "10.7rem" }} className="siderbr my-5 img1" src={c} alt="" /></a>
-        </SwiperSlide>
-        <SwiperSlide >
-          <a href='https://car-sandy.vercel.app/'>  <img style={{ "height": "10.7rem" }} src={Sidebar} alt="" /></a>
-        </SwiperSlide>
-        <SwiperSlide >
-          <a href='https://medassist.devforhealth.com/'>  <img style={{ "height": "10.7rem" }} src={'https://res.cloudinary.com/alpja/image/upload/v1702752829/crsvhuzcpfgjvgdrdgz9.png'} alt="" /></a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href='https://mern-418ex8thb-ehteshambutt.vercel.app/'>  <img style={{ "height": "10.7rem" }} className=" img2 marr" src={restorent} alt="" /></a>
-        </SwiperSlide>
-      
-      </Swiper>
-    </div>
+
+  <div className="bodys" style={{borderRadius:'50px'}}>
+  <div class="card-wrap bbbb">
+  <div class="card-header one" style={{ height: '200px' }}>
+    <img src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' style={{ width: '100%', height: '100%' }} />
+  </div>
+  <div class="card-content">
+    <h1 class="card-title">React/Nextjs</h1>
+    <p class="card-text">Used bootstrap5,html,css3 and i added
+    link of project here.</p>
+    <a href='http://welcome.devforhealth.com/MainScreen'>
+      <button class="card-btn one">Click</button>
+    </a>
+  </div>
+</div>
+
+<div class="card-wrap">
+  <div class="card-header two" style={{ height: '200px' }}>
+    <img src='https://res.cloudinary.com/alpja/image/upload/v1702752592/vffs7bx9yrfsk98aorz9.png' alt="" style={{ width: '100%', height: '100%' }} />
+  </div>
+  <div class="card-content">
+    <h1 class="card-title">Next/Reactjs</h1>
+    <p class="card-text">I used React js and next js for it with Materail UI Login credintiol will be provied if needed</p>
+    <a href='https://tech.doingthistogether.com/login'>
+      <button class="card-btn two">Click</button>
+    </a>
+  </div>
+</div>
+
+<div class="card-wrap">
+  <div class="card-header three">
+  <img src='https://res.cloudinary.com/alpja/image/upload/v1704651644/ueg5qjvk46j6jhqofvfu.png' alt="" style={{ width: '100%', height: '100%' }} />
+  </div>
+  <div class="card-content">
+    <h1 class="card-title">React js</h1>
+    <p class="card-text">A basic React js project
+    with bootstrap5 and some animations click below to view</p>
+    <a href='https://petite-vase.surge.sh'> <button class="card-btn three">Click</button></a>
+ </div>
+</div>
+<div class="card-wrap">
+  <div class="card-header four">
+  <img src='https://res.cloudinary.com/alpja/image/upload/v1702752829/crsvhuzcpfgjvgdrdgz9.png' alt="" style={{ width: '100%', height: '100%' }} />
+  </div>
+  <div class="card-content">
+    <h1 class="card-title">Next js</h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link credintiol will be shown per requirement</p>
+    <a href='https://medassist.devforhealth.com/'> <button class="card-btn four">Click</button></a>
+ </div>
+</div>
+
+</div>
+  </>
   );
 };
 

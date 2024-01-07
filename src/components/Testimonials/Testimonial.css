@@ -70,10 +70,34 @@
 
 @media screen and (max-width: 480px){
     .t-wrapper{
+    margin-top:49rem ;    
         padding: 0;
     }
     .testimonial>img{
         width: 70px;
         height: 70px;
     }
+  }
+  @media screen and (min-width: 370px) and (max-width: 450px) {
+    .experience {
+      margin-top: 50rem;
+    }
+  }
+  @media screen and (min-width: 370px) and (max-width: 400px){
+    .t-wrapper{
+        margin-top:49rem ;    
+            padding: 0;
+        }
+  }
+  @media screen and (min-width: 968px) and (max-width: 1024px){
+    .t-wrapper{
+        margin-top:25rem ;    
+            padding: 0;
+        }
+  }
+  @media screen and (min-width: 500px) and (max-width: 600px){
+    .t-wrapper{
+        margin-top:46rem ;    
+            padding: 0;
+        }
   }

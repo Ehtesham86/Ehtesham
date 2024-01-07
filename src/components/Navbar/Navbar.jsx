@@ -20,27 +20,27 @@ const Navbar = () => {
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
             <li>
-              <Link activeClass="active" to="Navbar" style={{ color: darkmode ? "pink" : "pink" }} spy={true} smooth={true}>
+              <Link activeClass="active" to="Navbar" style={{ color: darkmode ? "cyan" : "#00ffff" }} spy={true} smooth={true}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <Link to="services" spy={true} style={{ color: darkmode ? "cyan" : "#00ffff" }} smooth={true}>
                 Serivces
               </Link>
             </li>
             <li>
-              <Link to="works" spy={true} smooth={true}>
+              <Link to="works" spy={true} smooth={true} style={{ color: darkmode ? "cyan" : "#00ffff" }}>
                 Experience
               </Link>
             </li>
             <li>
-              <Link to="portfolio" spy={true} smooth={true}>
+              <Link to="portfolio" spy={true} smooth={true} style={{ color: darkmode ? "cyan" : "#00ffff" }}>
                 Protfolio
               </Link>
             </li>
             <li>
-              <Link to="testimonial" spy={true} smooth={true}>
+              <Link to="testimonial" spy={true} smooth={true} style={{ color: darkmode ? "cyan" : "#00ffff" }}>
                 Testimonial
               </Link>
             </li>

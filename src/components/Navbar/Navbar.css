@@ -24,6 +24,10 @@
   justify-content: flex-end;
   font-weight: 400;
 }
+/* Add this to your stylesheet */
+.active {
+  color: red !important; /* Use !important to ensure the style takes precedence */
+}
 
 .n-list {
   flex: 10;
