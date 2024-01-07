@@ -26,6 +26,8 @@ const Portfolio = () => {
 
 
   <div className="bodys" style={{borderRadius:'50px'}}>
+  <a href='http://welcome.devforhealth.com/MainScreen'>
+
   <div class="card-wrap bbbb">
   <div class="card-header one" style={{ height: '200px' }}>
     <img src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' style={{ width: '100%', height: '100%' }} />
@@ -38,7 +40,8 @@ const Portfolio = () => {
       <button class="card-btn one">Click</button>
     </a>
   </div>
-</div>
+</div></a>
+<a href='https://tech.doingthistogether.com/login'>
 
 <div class="card-wrap">
   <div class="card-header two" style={{ height: '200px' }}>
@@ -52,7 +55,8 @@ const Portfolio = () => {
     </a>
   </div>
 </div>
-
+</a>
+<a href='https://petite-vase.surge.sh'> 
 <div class="card-wrap">
   <div class="card-header three">
   <img src='https://res.cloudinary.com/alpja/image/upload/v1704651644/ueg5qjvk46j6jhqofvfu.png' alt="" style={{ width: '100%', height: '100%' }} />
@@ -63,18 +67,20 @@ const Portfolio = () => {
     with bootstrap5 and some animations click below to view</p>
     <a href='https://petite-vase.surge.sh'> <button class="card-btn three">Click</button></a>
  </div>
-</div>
+</div></a>
+<a href='https://medassist.devforhealth.com/'> 
 <div class="card-wrap">
   <div class="card-header four">
   <img src='https://res.cloudinary.com/alpja/image/upload/v1702752829/crsvhuzcpfgjvgdrdgz9.png' alt="" style={{ width: '100%', height: '100%' }} />
   </div>
+
   <div class="card-content">
     <h1 class="card-title">Next js</h1>
     <p class="card-text">This is complete Next js project and is syetem for a USA hospital link credintiol will be shown per requirement</p>
     <a href='https://medassist.devforhealth.com/'> <button class="card-btn four">Click</button></a>
  </div>
 </div>
-
+</a>
 </div>
   </>
   );
