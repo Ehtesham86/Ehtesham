@@ -47,8 +47,9 @@ const Navbar = () => {
           </ul>
         </div>
         <a href="https://wa.me/+923105321069" spy={true} smooth={true}>
-        <button className="button n-button">Call : 03189391781</button>
-        </a>
+  <button className="button n-button d-none ddd d-lg-block">Call : 03189391781</button>
+</a>
+
       </div>
     </div>
   );
