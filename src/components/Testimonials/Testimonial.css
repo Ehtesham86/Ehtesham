@@ -10,7 +10,7 @@
     position: relative;
 }
 .t-heading{
-    align-self: start;
+    align-self: flex-start;
 }
 .t-heading>*{
     font-size: 2rem;
@@ -101,3 +101,38 @@
             padding: 0;
         }
   }
+  .Testo{
+    margin-top: 0rem;
+  }
+/* For viewport widths between 768px and 920px */
+@media screen and (min-width: 708px) and (max-width: 920px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 14rem;
+    }
+}
+@media screen and (min-width: 588px) and (max-width: 708px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 17rem;
+    }
+}
+@media screen and (min-width: 440px) and (max-width: 588px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 88rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 440px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 95rem;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 12rem;
+    }
+}
+

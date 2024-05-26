@@ -24,15 +24,14 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          <spane style={{background:"cyan"}}>
+I am senior React js/Next.js developer with 2 + years experience              <br />
+           I works as Senior Next js developer at DevForHealth,Islamabad
+             
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Also works as node js developer as Freelancer
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+            MERN Stack Developer
           </spane>
           <Link to="'https://wa.me/+923105321069'" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

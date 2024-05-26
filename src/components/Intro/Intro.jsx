@@ -27,11 +27,24 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
+
+       
+
+
+
+
           <span style={{ color: darkMode ? "white" : "white" }}>Hy! I Am</span>
-          <span>Ehtesham Butt</span>
-          <span style={{fontWeight:'bold',color:"cyan"}}>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+     <h3 className="animate-charcter">Ehtesham Ali</h3>
+           <span style={{fontWeight:'bold',color:"cyan"}}>
+
+
+
+     <span class="title-word title-word-1">Senior Frontend Developer</span>
+    <span class="title-word title-word-2"> with</span>
+    <span class="title-word title-word-3"> 2+ years experience</span>
+    <span class="title-word title-word-4"> Next.js React</span>
+  
+
           </span>
         </div>
         <a href="https://wa.me/+923105321069" smooth={true} spy={true}>

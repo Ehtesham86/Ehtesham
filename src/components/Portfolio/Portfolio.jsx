@@ -26,7 +26,7 @@ const Portfolio = () => {
 
 
   <div className="bodys" style={{borderRadius:'50px'}}>
-  <a href='http://welcome.devforhealth.com/MainScreen'>
+  <a href='https://welcome.doingthistogether.com/MainScreen'>
 
   <div class="card-wrap bbbb">
   <div class="card-header one" style={{ height: '200px' }}>
@@ -36,7 +36,7 @@ const Portfolio = () => {
     <h1 class="card-title">React/Nextjs</h1>
     <p class="card-text">Used bootstrap5,html,css3 and i added
     link of project here.</p>
-    <a href='http://welcome.devforhealth.com/MainScreen'>
+    <a href='https://welcome.doingthistogether.com/MainScreen'>
       <button class="card-btn one">Click</button>
     </a>
   </div>
@@ -81,7 +81,44 @@ const Portfolio = () => {
  </div>
 </div>
 </a>
+<a href='https://dtt.devforhealth.com//'> 
+<div class="card-wrap">
+  <div class="card-header four">
+  <img src='https://res.cloudinary.com/dgmjg9zr4/image/upload/v1713245683/mngrpaatwjx0pbjisjg9.png' alt="" style={{ width: '100%', height: '100%' }} />
+  </div>
+
+  <div class="card-content">
+    <h1 class="card-title">Next js</h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link credintiol will be shown per requirement</p>
+    <a href='https://dtt.devforhealth.com/'> <button class="card-btn four">Click</button></a>
+ </div>
 </div>
+</a>
+
+
+<a href='https://app.silvercareagency.com/'> 
+<div class="card-wrap">
+  <div class="card-header four">
+  <img src='https://res.cloudinary.com/dgmjg9zr4/image/upload/v1713249233/Silvercare_h51ei1.png' alt="" style={{ width: '100%', height: '100%' }} />
+  </div>
+
+  <div class="card-content">
+    <h1 class="card-title">Next js</h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA silvercareAgency link credintiol will be shown per requirement</p>
+    <a href='https://app.silvercareagency.com/'> <button class="card-btn four">Click</button></a>
+ </div>
+</div>
+</a>
+</div>
+
+
+
+
+
+
+
+
+
   </>
   );
 };
