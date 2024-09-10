@@ -25,7 +25,22 @@ const Portfolio = () => {
 </div>
 
 
-  <div className="bodys" style={{borderRadius:'50px'}}>
+  <div className="bodys" style={{borderRadius:'50px',height:"auto"}}>
+  <a href='https://ottomon-bed-uk.vercel.app/beds/DoubleBeds'>
+
+<div class="card-wrap bbbb">
+<div class="card-header one" style={{ height: '200px' }}>
+  <img src='https://res.cloudinary.com/dgmjg9zr4/image/upload/v1725782024/uj71by0airoukhnu8ngv.png' style={{ width: '100%', height: '100%' }} />
+</div>
+<div class="card-content">
+  <h1 class="card-title">Ecommerce Shop in Next.js and Node Project</h1>
+  <p class="card-text">Used Tailwind css,html,css3,next.js and i added
+  link of project here.</p>
+  <a href='https://ottomon-bed-uk.vercel.app/beds/DoubleBeds'>
+    <button class="card-btn one">Click</button>
+  </a>
+</div>
+</div></a>
   <a href='https://welcome.doingthistogether.com/MainScreen'>
 
   <div class="card-wrap bbbb">
@@ -33,8 +48,8 @@ const Portfolio = () => {
     <img src='https://res.cloudinary.com/alpja/image/upload/v1702752171/e7dslq84hzg0wdxyyvyp.png' style={{ width: '100%', height: '100%' }} />
   </div>
   <div class="card-content">
-    <h1 class="card-title">React/Nextjs</h1>
-    <p class="card-text">Used bootstrap5,html,css3 and i added
+    <h1 class="card-title">Medical Test System for Hospital in React.js</h1>
+    <p class="card-text">Used bootstrap5,html,css3 with react js and i added
     link of project here.</p>
     <a href='https://welcome.doingthistogether.com/MainScreen'>
       <button class="card-btn one">Click</button>
@@ -48,8 +63,8 @@ const Portfolio = () => {
     <img src='https://res.cloudinary.com/alpja/image/upload/v1702752592/vffs7bx9yrfsk98aorz9.png' alt="" style={{ width: '100%', height: '100%' }} />
   </div>
   <div class="card-content">
-    <h1 class="card-title">Next/Reactjs</h1>
-    <p class="card-text">I used React js and next js for it with Materail UI Login credintiol will be provied if needed</p>
+    <h1 class="card-title">doingthistogether, a complete hospital system in Next/Reactjs</h1>
+    <p class="card-text">I used React js and next js for it with Materail UI and many more functionalties</p>
     <a href='https://tech.doingthistogether.com/login'>
       <button class="card-btn two">Click</button>
     </a>
@@ -62,8 +77,8 @@ const Portfolio = () => {
   <img src='https://res.cloudinary.com/alpja/image/upload/v1704651644/ueg5qjvk46j6jhqofvfu.png' alt="" style={{ width: '100%', height: '100%' }} />
   </div>
   <div class="card-content">
-    <h1 class="card-title">React js</h1>
-    <p class="card-text">A basic React js project
+    <h1 class="card-title">Saloon Shop/Services website in React js and Node js</h1>
+    <p class="card-text">A React js project
     with bootstrap5 and some animations click below to view</p>
     <a href='https://petite-vase.surge.sh'> <button class="card-btn three">Click</button></a>
  </div>
@@ -75,8 +90,8 @@ const Portfolio = () => {
   </div>
 
   <div class="card-content">
-    <h1 class="card-title">Next js</h1>
-    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link credintiol will be shown per requirement</p>
+    <h1 class="card-title">medassist in Next.js a complete hospital System</h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link </p>
     <a href='https://medassist.devforhealth.com/'> <button class="card-btn four">Click</button></a>
  </div>
 </div>
@@ -88,8 +103,8 @@ const Portfolio = () => {
   </div>
 
   <div class="card-content">
-    <h1 class="card-title">Next js</h1>
-    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link credintiol will be shown per requirement</p>
+    <h1 class="card-title">dtt in Next js, complete system for a hospital/Billing</h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA hospital link</p>
     <a href='https://dtt.devforhealth.com/'> <button class="card-btn four">Click</button></a>
  </div>
 </div>
@@ -103,8 +118,8 @@ const Portfolio = () => {
   </div>
 
   <div class="card-content">
-    <h1 class="card-title">Next js</h1>
-    <p class="card-text">This is complete Next js project and is syetem for a USA silvercareAgency link credintiol will be shown per requirement</p>
+    <h1 class="card-title">silvercareagency in Next js is complete system for a hospital/billing </h1>
+    <p class="card-text">This is complete Next js project and is syetem for a USA silvercareAgency credintiol fro local will be shown per requirement</p>
     <a href='https://app.silvercareagency.com/'> <button class="card-btn four">Click</button></a>
  </div>
 </div>
