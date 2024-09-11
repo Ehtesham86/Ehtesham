@@ -25,7 +25,7 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane style={{background:"cyan"}}>
-I am senior React js/Next.js developer with 3 + years experience              <br />
+I am senior React js/Next.js developer with 2 + years experience              <br />
            I works as Senior Next js developer at DevForHealth,Islamabad
              
             <br />
